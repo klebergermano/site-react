@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use("/", apiRouter);
 
-const port = 5000;
+const port = 3000;
 app.listen(process.env.PORT || port, () => {
   console.log(`Server running on ${process.env.PORT || port}`);
 });
